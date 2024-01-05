@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="boite">   
+        <div class="partie-gauche">
+              <span class="nom-du-site">E-Parc</span><br>
+              <p class="phrase-dacceuil"><strong>Avec E-Parc achetez et vendez des vehicule d'occasion<br> en toute sécurité 24h/24 </p></strong>
+        </div>
+            
+        <div class="bordure-du-formulaire">
+        <div class="bordure_du_message">
+            
+        
+              </div>  
+        <form method="POST" action="index.php">
+               
+                <input type="text" name="emailounumero"  value="vitaldagba@gmail.com" placeholder="Adresse e-mail ou numero"><br>
+                
+                <input type="password" name="mot_de_passe" value="azomahou" placeholder=" Mot de passe"  ><br>
+            
+                <span class="bouton-de-connexion" ><input type="submit" value="Se connecter"  ></span><br>
+                <p class="Mot_de_passe_oublie"><a href="#"><strong>Mot de passe oublié ?</strong></a><hr></p>
+           
+           <div   class="creer-nouveau" id="creer-nouveau">  Créer nouveau compte</div>
+            </form>
+           
+        </div>
+            
+</div>
+        <p class="phrase_du_bas">
+            Créer une compte facilement.
+        </p>
+        
+        <div  class="nouveau_formulaire" id="nouveau_formulaire"> 
+               <div  class="boite2">
+                <span class="sinscrire">S'inscrire</span>
+                <button  class="bouton_disparaitre" id="bouton_disparaitre">X</button>
+              <br><span class="rapid_facile">C'est rapide et facile</span>
+              <hr>
+              <form  method="POST" action="index.php" >
+              <input type="text" name="email_ou_numero" placeholder="Numero de mobile ou email"  >
+             
+              <div class="ensemble_numero_famille">
+              <input class="Nom_de_famille" type="text" placeholder="Nom de famille " name="nom"     >
+              <input class="prenom" type="text" name="prenom" placeholder="Prenom" >
+              </div>
+              <input type="password" name="mot_de_passe" placeholder="Votre mot de passe"  ><br>
+              <span class="date_de_naissance">Date de naissance</span><br>
+              <input type="date" name="date_de_naissance" >
+              <span class="Genre"> Genre</span><br>
+              <div class="legenre">
+              <span class="contour_genre1">
+                   <label for="homme">Homme</label>
+                <input type="radio" class="genre" value="homme" name="sexe"  ></span>
+              <span class="contour_genre2"><label for="femme" >Femme</label>
+              <input type="radio" class="genre" value="femme" name="sexe" ></span>
+              <span class="contour_genre3"><label for="personnalise">Personnalisé</label>
+              <input type="radio" class="genre" value="personnalise" name="sexe" ></span>
+              </div>
+              <div class="information_dutilisation">En appuyant sur s'inscrire, vous acceptez nos 
+              <a href="">Conditions générales</a>, notre<a href=""> Politique d'utilisation des données </a> et notre<a href=""> Politique d'utilisation des cookies</a>.Vous recevrez peut-être des notifications par texto de notre part et
+               vous pouvez à tout moment vous désabonner </div>
+          <input  type="submit" value="Sinscrire" class="sinscrire2" >
+               </form>
+               
+              </div> 
+              
+        </div>
+    
+            <div class="pied-de-page">
+            <p><button><strong>francais(fr)</strong> </button>&nbsp;&nbsp;&nbsp;<button><strong>Anglais (US)</strong></button></p>
+            <hr>
+            <p> <a href="">Condition Générale </a>&nbsp;&nbsp;<a href="">Developpeurs </a>&nbsp;&nbsp;<a href="">A propos</a>&nbsp;&nbsp;<a href="">Help</a></p>
+            </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

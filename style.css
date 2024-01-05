@@ -1,0 +1,638 @@
+
+.nom-du-site{
+    font-size: 200%;
+    color:  #ea1f33;
+    font-weight: bold;
+}
+.bordure-du-formulaire{
+    border:solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: rgb(200, 214, 218);
+   margin:auto;
+   padding-left: 7px;
+   padding-right: 7px;
+   padding-top: 7px;
+   padding-bottom: 10px;
+  
+
+}
+.bordure-du-formulaire input{
+
+    border-color: rgb(200, 214, 218);
+    border-radius: 5px;
+    outline: none;
+    height:45px;
+   
+}
+
+.boite{
+    display:flex;
+
+   
+}
+.partie-gauche{
+margin:5%;
+}
+.bouton-de-connexion input{
+    color:white;
+    font-size: 20px;
+    background-color: #ea1f33 ;
+    
+    
+}
+
+.Mot_de_passe_oublie{
+   
+text-align: center;
+
+}
+.Mot_de_passe_oublie a{
+    color:rgb(250, 9, 9);
+}
+a{
+    text-decoration:none;
+}
+hr{
+    border: solid 1px;
+    border-color:rgb(200, 214, 218);
+}
+.creer-nouveau{
+    color:white;
+    background-color:forestgreen;
+    border: 1px solid;
+    border-radius: 5px;
+    font-weight:bolder;
+    font-size:15px;
+    text-align: center;
+   
+    padding-top: 15px;
+    padding-bottom:15px;
+   margin:auto
+    
+    
+}
+.boite{
+    position: relative;
+    top:100px;
+    margin-left: 105px;
+}
+
+.phrase-dacceuil{
+    font-size: 20px;
+    margin-top: 5px;
+
+}
+.phrase_du_bas{
+    position:relative;
+    font-weight: bold;
+    top:100px;
+    
+    text-align: center;
+}
+/*footer{
+    background-color: white;
+    position:relative;
+    top:150px;
+    /*margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 120px;
+    color:#ea1f33 ;
+    font-weight: bold;
+    
+}*/
+p a{
+    color:#dc3545;
+    margin:4px;
+    margin-top: 5px;
+    margin-left:0px;
+}
+.pied-de-page{
+    margin:50px;
+   margin-top:150px; 
+    padding:30px;
+}
+p button{
+    background: white;
+    color:  #ea1f33;
+    border-color: #ea1f33;
+    height: 30px;
+    border:1px solid;
+}
+p button:hover{
+    color:white;
+    border:1px solid;
+    background-color: #ea1f33;
+    height:31px;
+}
+.creer-nouveau:hover{
+    background-color: #ea1f33;
+    }
+.bouton-de-connexion input:hover{
+    height:46px;
+}
+.message{
+    border:1px solid;
+    height:20px;
+    border-radius: 5px;
+    background-color:red;
+    color:white;
+    font-weight:bold;
+}
+    
+input:hover{
+    border-color:#ea1f33 ;
+}
+/*Feuille de style pour les personne qui vont s'inscrire*/
+
+
+hr{
+    border:1px solid;
+    border-radius: 5px;
+    border-color: rgb(200, 214, 218);
+
+}
+.sinscrire{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left:15px;  
+}
+.rapid_facile{
+    color:  rgb(136, 140, 141);;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.prenom{
+    width:135px;
+    margin-left: 4px;
+    }
+    .Nom_de_famille{
+        width:135px;
+        margin-right: 4px;
+    }
+    .ensemble_numero_famille{
+        display: flex;
+    }
+    .date_de_naissance{
+        font-weight:bolder;
+        color: rgb(136, 140, 141);
+        margin-left:15px;
+        }
+        .Genre{
+            font-weight:bolder;
+            color:  rgb(136, 140, 141);
+            margin-left:15px;
+        }
+        .legenre{
+            display:flex;
+        }
+        .genre{
+            height:11px;
+            width:12px;
+        }
+        .contour_genre1{
+            border:solid 1px;
+            border-color: rgb(200, 214, 218);
+            border-radius: 5px;
+            height:25px;
+            margin:3px;
+            padding:5px;
+            font-size: 15px;
+            font-weight: bolder;
+            margin-left: 15px;
+        }
+        .contour_genre2{
+            border:solid 1px;
+            border-color: rgb(200, 214, 218);
+            border-radius: 5px;
+            height:25px;
+            margin:3px;
+            padding:5px;
+            font-size: 15px;
+            font-weight: bolder;
+            margin-left: 5px;
+        }
+        .contour_genre3{
+            border:solid 1px;
+            border-color: rgb(200, 214, 218);
+            border-radius: 5px;
+            height:25px;
+            margin:3px;
+            padding:5px;
+            font-size: 14px;
+            font-weight: bolder;
+            margin-left: 5px;
+        }
+        a{
+            text-decoration: none;   
+        }
+        .information_dutilisation{
+            margin-top: 5px;
+            margin-left:15px;
+            text-align: justify;
+            font-weight:bolder;
+            color:  rgb(136, 140, 141);
+            font-size: 11px;
+            margin-right:25px;
+            
+        }
+        .sinscrire2{
+            margin-top: 15px;
+            background-color: rgb(11, 175, 11);
+            font-size:15px;
+            font-weight: bolder;
+            color: white;
+            width:150px;
+            margin-left:100px;
+        }
+        input:hover{
+            border-color:orange;
+        }
+        .bouton_disparaitre{
+             background-color: white;
+             border-radius: 5px;
+             border-color: rgb(200, 214, 218);
+             height:30px;
+             position: relative;
+             left:185px;
+        }
+        .bouton_disparaitre:focus{
+            border-color: orange;
+            box-shadow: 1px 1px orange; }
+.nouveau_formulaire{
+    z-index: 3;
+    background-color:rgba(0, 0, 0, 0.8);
+   position: absolute;;
+  top:0px;
+ left:0px;
+ right:0px;
+
+padding-top:60px;
+padding-left:500px;
+padding-bottom:220px;
+display:none;
+ 
+}
+
+input{
+    border:solid 1px;
+    border-color: rgb(200, 214, 218);
+    border-radius: 5px;
+    height:35px;
+    width:310px;
+    background-color: whitesmoke;
+    padding-left:15px;
+    padding-right:15px;
+    margin:6px;
+    margin-left: 15px;
+    outline: none;   
+   
+}
+.boite2{
+    border:1px solid;
+    border-radius: 5px;
+    border-color: rgb(200, 214, 218);
+    background:white;
+    padding-top: 10px;
+    padding-bottom:15px;
+    height: 460px;
+    width: 375px;
+   
+   
+}
+body{
+    margin:0px;
+   
+}
+
+input:invalid{
+    border:#dc3545 solid 2px;
+    
+}
+
+@media screen and (max-width:720px){
+    .boite{
+        display:block;
+    
+      
+    }
+    
+    .nom-du-site{
+        font-size:40px;
+        color:#ea1f33 ;
+        font-weight: bold;
+    }
+
+    .bordure-du-formulaire{
+        border:solid 1px;
+        border-radius: 5px;
+        background-color: white;
+        border-color: rgb(200, 214, 218);
+       
+    
+    }
+
+    .bordure-du-formulaire input{
+        border:solid 1px;
+        border-color: rgb(200, 214, 218);
+        border-radius: 5px;
+       
+        
+        padding-left:15px;
+        padding-right:15px;
+        margin:6px;
+        outline: none;
+        height:45px;
+        width: 85%;
+        
+    }
+    
+    
+    .bouton-de-connexion input{
+        color:white;
+        font-size: 20px;
+        background-color:#ea1f33 ;
+        width:95%;
+        
+    }
+    
+    .Mot_de_passe_oublie{
+       
+    text-align: center;
+    
+    }
+    .Mot_de_passe_oublie a{
+        color:rgb(250, 9, 9);
+    }
+    a{
+        text-decoration:none;
+    }
+    hr{
+        border: solid 1px;
+        border-color:rgb(200, 214, 218);
+    }
+    .creer-nouveau{
+        color:white;
+        background-color:forestgreen;
+        border: 1px solid;
+        border-radius: 5px;
+        font-weight:bolder;
+        font-size:15px;
+        text-align: center;
+       
+        padding-top: 15px;
+        padding-bottom:15px;
+        margin-right:75px;
+       
+        margin-left:75px;
+        
+    }
+    .boite{
+        position: relative;
+        top:10px;
+        margin:0px;
+    
+    }
+    
+    .phrase-dacceuil{
+        font-size: 20px;
+        margin-top: 1px;
+    
+    }
+    .phrase_du_bas{
+        position:relative;
+        font-weight: bold;
+        top:15px;
+        margin-left:15px;
+    }
+    
+    p a{
+        color:#dc3545;
+        
+        margin-top: 5px;
+        margin-left:0px;
+        display :inline-block;
+    }
+    .pied-de-page{
+        
+       margin-top:15px; 
+       
+       margin-left:0px;
+       margin-right:0px;
+    }
+    p button{
+        background: white;
+        color:#ea1f33 ;
+        border-color:#ea1f33 ;
+        height: 30px;
+        border:1px solid;
+        
+    }
+    p button:hover{
+        color:white;
+        border:1px solid;
+        background-color:#ea1f33 ;
+        height:31px;
+        
+    }
+    
+    .bouton-de-connexion input:hover{
+        height:46px;
+    }
+    .message{
+        border:1px solid;
+        height:20px;
+        border-radius: 5px;
+        background-color:red;
+        color:white;
+        font-weight:bold;
+        width:100%;
+    }
+        
+    input:hover{
+        border-color:#ea1f33 ;
+    }
+
+
+    hr{
+        border:1px solid;
+        border-radius: 5px;
+        border-color: rgb(200, 214, 218);
+    
+    }
+    .sinscrire{
+        font-size: 30px;
+        font-weight: bold;
+        margin-left:15px;  
+    }
+    .rapid_facile{
+        color:  rgb(136, 140, 141);;
+        font-weight: bold;
+        margin-left: 15px;
+    }
+    
+    .prenom{
+        width:36%;
+        margin-left: 4px;
+        }
+        .Nom_de_famille{
+            width:36%;
+            margin-right: 4px;
+        }
+        .ensemble_numero_famille{
+            display: flex;
+        }
+        .date_de_naissance{
+            font-weight:bolder;
+            color: rgb(136, 140, 141);
+            margin-left:15px;
+            }
+            .Genre{
+                font-weight:bolder;
+                color:  rgb(136, 140, 141);
+                margin-left:15px;
+            }
+            .legenre{
+                display:flex;
+            }
+            .genre{
+                height:11px;
+                width:14px;
+            }
+            .contour_genre1{
+                border:solid 1px;
+                border-color: rgb(200, 214, 218);
+                border-radius: 5px;
+                height:25px;
+                margin:3px;
+                padding:5px;
+                font-size: 12px;
+                font-weight: bolder;
+                margin-left: 15px;
+            }
+            .contour_genre2{
+                border:solid 1px;
+                border-color: rgb(200, 214, 218);
+                border-radius: 5px;
+                height:25px;
+                margin:3px;
+                padding:5px;
+                font-size: 10px;
+                font-weight: bolder;
+                margin-left: 5px;
+            }
+            .contour_genre3{
+                border:solid 1px;
+                border-color: rgb(200, 214, 218);
+                border-radius: 5px;
+                height:25px;
+                margin:3px;
+                padding:5px;
+                font-size: 11px;
+                font-weight: bolder;
+                margin-left: 5px;
+            }
+            a{
+                text-decoration: none;   
+            }
+            .information_dutilisation{
+                margin-top: 5px;
+                margin-left:15px;
+                text-align: justify;
+                font-weight:bolder;
+                color:  rgb(136, 140, 141);
+                font-size: 11px;
+                margin-right:25px;
+                
+            }
+            .sinscrire2{
+                margin-top: 15px;
+                background-color: rgb(11, 175, 11);
+                font-size:15px;
+                font-weight: bolder;
+                color: white;
+                width:150px;
+                margin-left:100px;
+            }
+            input:hover{
+                border-color:orange;
+            }
+            .bouton_disparaitre{
+                 background-color: white;
+                 border-radius: 5px;
+                 border-color: rgb(200, 214, 218);
+                 height:30px;
+                 position: relative;
+                 left:100px;
+            }
+            .bouton_disparaitre:focus{
+                border-color: orange;
+                box-shadow: 1px 1px orange; }
+                
+                .nouveau_formulaire{
+                    z-index:0;
+    background-color: white;
+    position: static;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding-top:0;
+    padding-left:0;
+    padding-bottom:0;
+                    
+                   
+                  
+                    display:none;
+                     
+                    }
+    
+    input{
+        border:solid 1px;
+        border-color: rgb(200, 214, 218);
+        border-radius: 5px;
+        height:35px;
+        width:83%;
+        background-color: whitesmoke;
+        padding-left:15px;
+        padding-right:15px;
+       
+        margin-top:6px;
+        margin-bottom:6px;
+        margin-right: 15px;
+        margin-left: 15px;
+        outline: none;   
+       
+    }
+    .boite2{
+        border:1px solid;
+        border-radius: 5px;
+        border-color: rgb(200, 214, 218);
+        background:white;
+        padding-top: 10px;
+        padding-bottom:15px;
+        height: 540px;
+        width: 98%;
+      
+    }
+    body{
+        margin:0px;
+       
+    }
+
+/*.phrase_du_bas,boite,.pied-de-page*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
